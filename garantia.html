@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garantía - MedeTour</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<header>
+    <div class="container">
+    <a href="index.html" class="logo">
+        <img src="/img/Logo2.png" alt="Logo MedeTour">
+        <h1>MedeTour</h1>
+
+    </a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="garantia.html">Garantía</a></li>
+                <li><a href="terminos.html">Términos de uso</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <br>
+    <br>
+    
+        <h2>Nuestra Garantía</h2>
+        <div class="card">
+            <p>En <strong>MedeTour</strong> nos comprometemos a ofrecer información confiable, clara y actualizada sobre los destinos turísticos, eventos y actividades de Medellín. Sabemos que planear un viaje requiere seguridad y confianza, por eso hemos creado esta sección donde respondemos a las dudas más comunes que pueden surgir al navegar en nuestra plataforma.</p>
+        </div>
+<br>
+        <div class="card">
+            <h3>¿Cómo garantizamos que la información es verídica?</h3>
+            <p>Trabajamos con fuentes locales, guías oficiales de turismo, entidades culturales y experiencias reales de viajeros. Todo el contenido es revisado de manera periódica para asegurarnos de que los datos sobre horarios, costos, ubicaciones y actividades estén siempre al día.</p>
+        </div>
+        <br>
+        <div class="card">
+            <h3>¿Qué pasa si encuentro un error en la información?</h3>
+            <p>La transparencia es clave para nosotros. Si algún usuario detecta información desactualizada, puede escribirnos al correo de contacto. Nuestro equipo se encargará de verificarla y corregirla lo más pronto posible. Además, agradecemos a quienes nos ayudan a mejorar con sus aportes.</p>
+        </div>
+<br>
+        <div class="card">
+            <h3>¿Puedo confiar en las recomendaciones de MedeTour?</h3>
+            <p>Sí. Cada recomendación está basada en la experiencia cultural y turística de Medellín. Promovemos lugares seguros, reconocidos y con valor histórico o cultural. Sin embargo, invitamos a los turistas a ser precavidos y seguir nuestras sugerencias de seguridad incluidas en la sección de <a href="index.html#tips">Tips para turistas</a>.</p>
+        </div>
+<br>
+        <div class="card">
+            <h3>¿Ofrecen algún tipo de devolución o compensación?</h3>
+            <p>MedeTour no es una agencia de viajes ni gestiona pagos directos por servicios turísticos, por lo tanto no manejamos devoluciones económicas. Nuestra garantía se centra en brindar orientación gratuita y confiable para que cada persona pueda tomar decisiones informadas antes de contratar servicios con terceros.</p>
+        </div>
+<br>
+        <div class="card">
+            <h3>¿Qué diferencia a MedeTour de otras páginas de turismo?</h3>
+            <p>A diferencia de otros portales, nuestro objetivo es mostrar la verdadera esencia de Medellín con información local y cercana. No publicamos contenido publicitario sin verificar, y damos prioridad a los lugares, eventos y actividades que realmente enriquecen la experiencia de quienes visitan la ciudad.</p>
+        </div>
+<br>
+        <div class="card">
+            <h3>¿Puedo comunicarme con el equipo de MedeTour?</h3>
+            <p>Claro que sí. Creemos en la atención cercana. En la sección de contacto encontrarás nuestro correo electrónico y teléfono. Allí podrás hacer preguntas, enviar sugerencias o compartir tus experiencias. Todas las consultas son respondidas en el menor tiempo posible.</p>
+        </div>
+    </section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Síguenos</h3>
+                <p class="fb"><a href="https://facebook.com">Facebook</a></p>
+            <p class="ig"><a href="https://instagram.com">Instagram</a></p>
+            <p class="x"><a href="https://x.com">Twitter</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>Sede Principal</h3>
+                <p>📍 Carrera 53 # 52-05, Centro, Medellín</p>
+                <p>📞 Tel: (604) 444 44 44</p>
+                <p>📧 contacto@medetour.com</p>
+        </div>
+        <div class="footer-column">
+            <h3>Enlaces</h3>
+                <p><a href="garantia.html">Garantía</a></p>
+                <p><a href="terminos.html">Términos de uso</a></p>
+                <p><a href="privacidad.html">Política de privacidad</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        MedeTour © 2025 - Todos los derechos reservados
+    </div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); 
+
+    // Cambiar icono ☰ ↔ ✖
+    if(menuToggle.textContent === "☰") {
+        menuToggle.textContent = "✖";
+    } else {
+        menuToggle.textContent = "☰";
+    }
+});
+</script>
+
+</body>
+</html>

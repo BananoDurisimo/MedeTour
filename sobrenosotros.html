@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre Nosotros - MedeTour</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<header>
+    <div class="container">
+    <a href="index.html" class="logo">
+        <img src="/img/Logo2.png" alt="Logo MedeTour">
+        <h1>MedeTour</h1>
+
+    </a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="garantia.html">Garantía</a></li>
+                <li><a href="terminos.html">Términos de uso</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Contenido -->
+<section>
+    <br>
+    <br>
+    <h2>Sobre Nosotros</h2>
+
+    <div class="card">
+        <h3>Misión</h3>
+        <p>Brindar a los turistas nacionales e internacionales una guía completa de Medellín, resaltando su cultura, gastronomía y lugares icónicos, para que vivan experiencias memorables, auténticas y seguras.</p>
+    </div>
+<br>
+    <div class="card">
+        <h3>Visión</h3>
+        <p>Convertirnos en la plataforma digital más confiable, atractiva y completa para quienes deseen conocer Medellín, ayudando a posicionar la ciudad como uno de los principales destinos turísticos de Latinoamérica.</p>
+    </div>
+<br>
+    <div class="card">
+        <h3>¿A qué nos dedicamos?</h3>
+        <p>En <strong>MedeTour</strong> nos dedicamos a compartir información actualizada sobre los lugares más visitados, eventos culturales, consejos de seguridad, movilidad y recomendaciones para que tu estadía en Medellín sea inolvidable.</p>
+    </div>
+<br>
+    <div class="card">
+        <h3>Nuestros Valores</h3>
+        <ul>
+            <li>🌍 <strong>Compromiso con la cultura:</strong> Respetamos y promovemos la riqueza cultural de Medellín.</li>
+            <li>✅ <strong>Confiabilidad:</strong> Publicamos información verificada y actualizada.</li>
+            <li>💡 <strong>Innovación:</strong> Buscamos nuevas formas de hacer que tu experiencia sea interactiva y divertida.</li>
+            <li>🙌 <strong>Responsabilidad social:</strong> Promovemos el turismo responsable y sostenible.</li>
+        </ul>
+    </div>
+<br>
+    <div class="card">
+        <h3>Nuestro Equipo</h3>
+        <p>Somos un grupo de apasionados por Medellín, desde diseñadores y programadores hasta expertos en historia y cultura. Nuestra meta es transmitir el orgullo de ser parte de una ciudad que se transforma constantemente y que abre sus puertas al mundo.</p>
+    </div>
+<br>
+    <div class="card">
+        <h3>¿Por qué elegirnos?</h3>
+        <p>Porque entendemos que viajar no solo se trata de visitar lugares, sino de vivir experiencias. MedeTour te ofrece:</p>
+        <ul>
+            <li>📌 Información clara y sencilla para planificar tu viaje.</li>
+            <li>📅 Recomendaciones de eventos y actividades durante todo el año.</li>
+            <li>🚇 Tips prácticos de transporte y seguridad.</li>
+            <li>🍴 Recomendaciones de gastronomía local.</li>
+            <li>📸 Espacios icónicos y secretos poco conocidos que no aparecen en cualquier guía.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+        <h3>Síguenos</h3>
+            <p class="fb"><a href="https://facebook.com">Facebook</a></p>
+            <p class="ig"><a href="https://instagram.com">Instagram</a></p>
+            <p class="x"><a href="https://x.com">Twitter</a></p>
+        </div>
+        <div class="footer-column">
+        <h3>Sede Principal</h3>
+            <p>📍 Carrera 53 # 52-05, Centro, Medellín</p>
+            <p>📞 Tel: (604) 444 44 44</p>
+            <p>📧 contacto@medetour.com</p>
+        </div>
+        <div class="footer-column">
+        <h3>Enlaces</h3>
+            <p><a href="garantia.html">Garantía</a></p>
+            <p><a href="terminos.html">Términos de uso</a></p>
+            <p><a href="privacidad.html">Política de privacidad</a></p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+    MedeTour © 2025 - Todos los derechos reservados
+    </div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); 
+
+    // Cambiar icono ☰ ↔ ✖
+    if(menuToggle.textContent === "☰") {
+        menuToggle.textContent = "✖";
+    } else {
+        menuToggle.textContent = "☰";
+    }
+});
+</script>
+
+</body>
+</html>

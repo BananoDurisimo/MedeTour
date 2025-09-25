@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminos de Uso - MedeTour</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<header>
+    <div class="container">
+    <a href="index.html" class="logo">
+        <img src="/img/Logo2.png" alt="Logo MedeTour">
+        <h1>MedeTour</h1>
+
+    </a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="garantia.html">Garantía</a></li>
+                <li><a href="terminos.html">Términos de uso</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <br>
+    <br>
+    
+    <h2>Términos de Uso</h2>
+        <div class="card">
+            <p>Al acceder y utilizar el sitio web <strong>MedeTour</strong>, aceptas los siguientes términos y condiciones de uso. Te recomendamos leerlos cuidadosamente para entender cómo funciona nuestra plataforma:</p>
+        </div>   
+<br>
+        <div class="card">
+        <h3>1. Uso del sitio</h3>
+        <ul>
+            <li>El contenido publicado tiene fines exclusivamente informativos y turísticos.</li>
+            <li>No sustituye la información proporcionada por agencias de viajes, hoteles u operadores turísticos oficiales.</li>
+            <li>El usuario se compromete a usar la página de forma responsable, sin fines ilegales ni actividades que afecten la seguridad de otros visitantes.</li>
+        </ul>
+<hr>
+        <h3>2. Actualización del contenido</h3>
+        <ul>
+            <li>Hacemos todo lo posible por mantener la información actualizada y confiable.</li>
+            <li>No garantizamos que todos los datos (como precios, horarios o disponibilidad) estén siempre al día.</li>
+            <li>Recomendamos confirmar con fuentes oficiales antes de realizar reservas o visitas.</li>
+        </ul>
+<hr>
+        <h3>3. Propiedad intelectual</h3>
+        <ul>
+            <li>El logo, diseño y contenido original de MedeTour están protegidos por derechos de autor.</li>
+            <li>No está permitido copiar, distribuir o modificar nuestro contenido sin autorización.</li>
+        </ul>
+<hr>
+        <h3>4. Responsabilidades</h3>
+        <ul>
+            <li>MedeTour no se hace responsable por pérdidas, inconvenientes o problemas derivados de información incompleta o cambios inesperados en los eventos o lugares.</li>
+            <li>Cada usuario es responsable de sus decisiones al visitar destinos turísticos.</li>
+        </ul>
+<hr>
+        <h3>5. Enlaces externos</h3>
+        <ul>
+            <li>En ocasiones podemos incluir enlaces a sitios de terceros (hoteles, agencias, aerolíneas).</li>
+            <li>No tenemos control sobre el contenido o políticas de esos sitios y no asumimos responsabilidad por su uso.</li>
+        </ul>
+<hr>
+        <h3>6. Modificación de los términos</h3>
+        <p>MedeTour se reserva el derecho de actualizar o cambiar estos términos en cualquier momento. Te invitamos a revisarlos periódicamente para mantenerte informado.</p>
+<hr>
+        <h3>7. Contacto</h3>
+        <p>Si tienes preguntas sobre estos Términos de Uso, puedes escribirnos a <strong>contacto@medetour.com</strong>. Estaremos felices de ayudarte.</p>
+    </div>
+
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+        <h3>Síguenos</h3>
+            <p class="fb"><a href="https://facebook.com">Facebook</a></p>
+            <p class="ig"><a href="https://instagram.com">Instagram</a></p>
+            <p class="x"><a href="https://x.com">Twitter</a></p>
+        </div>
+        <div class="footer-column">
+        <h3>Sede Principal</h3>
+            <p>📍 Carrera 53 # 52-05, Centro, Medellín</p>
+            <p>📞 Tel: (604) 444 44 44</p>
+            <p>📧 contacto@medetour.com</p>
+        </div>
+        <div class="footer-column">
+        <h3>Enlaces</h3>
+            <p><a href="garantia.html">Garantía</a></p>
+            <p><a href="terminos.html">Términos de uso</a></p>
+            <p><a href="privacidad.html">Política de privacidad</a></p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+    MedeTour © 2025 - Todos los derechos reservados
+    </div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); 
+
+    // Cambiar icono ☰ ↔ ✖
+    if(menuToggle.textContent === "☰") {
+        menuToggle.textContent = "✖";
+    } else {
+        menuToggle.textContent = "☰";
+    }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacidad - MedeTour</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+<header>
+    <div class="container">
+    <a href="index.html" class="logo">
+        <img src="/img/Logo2.png" alt="Logo MedeTour">
+        <h1>MedeTour</h1>
+
+    </a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="garantia.html">Garantía</a></li>
+                <li><a href="terminos.html">Términos de uso</a></li>
+                <li><a href="privacidad.html">Política de privacidad</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <br>
+    <br>
+    <h2>Política de Privacidad</h2>
+        <div class="card">
+            <p>En <strong>MedeTour</strong> respetamos y valoramos tu privacidad. Sabemos lo importante que es para ti confiar en los sitios web que visitas, por eso te contamos de forma clara cómo manejamos tu información:</p>
+        </div>
+<br>
+        <div class="card">
+        <h3>1. Información que recolectamos</h3>
+        <ul>
+            <li>Solo pedimos datos básicos como nombre y correo electrónico si decides contactarnos.</li>
+            <li>No solicitamos datos sensibles como documentos de identidad, contraseñas o información bancaria.</li>
+            <li>Al navegar en nuestra página, recopilamos información técnica mínima (como el tipo de navegador o dispositivo) para mejorar tu experiencia.</li>
+        </ul>
+<hr>
+        <h3>2. Uso de la información</h3>
+        <ul>
+            <li>La usamos únicamente para responder a tus consultas o brindarte información turística.</li>
+            <li>No vendemos ni compartimos tus datos con terceros.</li>
+            <li>Si te suscribes a nuestras novedades, recibirás correos solo relacionados con turismo en Medellín.</li>
+        </ul>
+<hr>
+        <h3>3. Uso de cookies</h3>
+        <ul>
+            <li>Utilizamos cookies solo para mejorar tu navegación (ejemplo: recordar tu idioma o tus páginas favoritas).</li>
+            <li>Puedes desactivarlas en la configuración de tu navegador sin que afecte gravemente la experiencia.</li>
+        </ul>
+<hr>
+        <h3>4. Seguridad de tus datos</h3>
+        <p>Implementamos medidas de seguridad para proteger la información que nos proporcionas. Aunque ningún sistema es 100% seguro, trabajamos constantemente para mantener tus datos protegidos.</p>
+<hr>
+        <h3>5. Derechos de los usuarios</h3>
+        <ul>
+            <li>Puedes pedirnos en cualquier momento que eliminemos tu información escribiéndonos a <strong>contacto@medetour.com</strong>.</li>
+            <li>Si encuentras algún error en tus datos, puedes solicitar que lo corrijamos.</li>
+            <li>Tienes derecho a conocer qué información tenemos sobre ti.</li>
+        </ul>
+<hr>
+        <h3>6. Cambios en esta política</h3>
+        <p>Podemos actualizar esta política de vez en cuando para mejorar la transparencia o adaptarnos a nuevas normativas. Siempre podrás ver la versión más reciente en esta página.</p>
+<hr>
+        <h3>7. Contacto</h3>
+        <p>Si tienes dudas sobre esta política de privacidad o sobre cómo usamos tu información, escríbenos a <strong>contacto@medetour.com</strong> y con gusto te responderemos.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Síguenos</h3>
+                <p class="fb"><a href="https://facebook.com">Facebook</a></p>
+            <p class="ig"><a href="https://instagram.com">Instagram</a></p>
+            <p class="x"><a href="https://x.com">Twitter</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>Sede Principal</h3>
+                <p>📍 Carrera 53 # 52-05, Centro, Medellín</p>
+                <p>📞 Tel: (604) 444 44 44</p>
+                <p>📧 contacto@medetour.com</p>
+        </div>
+        <div class="footer-column">
+            <h3>Enlaces</h3>
+                <p><a href="garantia.html">Garantía</a></p>
+                <p><a href="terminos.html">Términos de uso</a></p>
+                <p><a href="privacidad.html">Política de privacidad</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        MedeTour © 2025 - Todos los derechos reservados
+    </div>
+</footer>
+
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); 
+
+    // Cambiar icono ☰ ↔ ✖
+    if(menuToggle.textContent === "☰") {
+        menuToggle.textContent = "✖";
+    } else {
+        menuToggle.textContent = "☰";
+    }
+});
+</script>
+
+</body>
+</html>
