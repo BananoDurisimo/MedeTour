@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif; 
-    background: #FFF5E6; /* crema suave de fondo */
+    background: #FFF5E6; 
 }
 
 /* ===== HEADER ===== */
@@ -11,7 +11,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(90deg, #FF7F50, #FFA07A); /* coral a salmón */
+    background: linear-gradient(90deg, #FF7F50, #FFA07A); 
     box-shadow: 0 2px 6px rgba(255, 140, 105, 0.4);
     z-index: 1000;
 }
@@ -38,7 +38,7 @@ header .container {
 }
 .logo h1 {
     font-size: 24px;
-    color: #FFD700; /* amarillo sol */
+    color: #FFD700;
     margin: 0;
 }
 
@@ -55,13 +55,13 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    color: #ffffff; /* blanco para contraste */
+    color: #ffffff; 
     font-size: 18px;
     font-weight: 600;
     transition: color 0.3s;
 }
 nav ul li a:hover {
-    color: #000000; /* naranja intenso */
+    color: #000000; 
 }
 
 /* Menú hamburguesa */
@@ -69,7 +69,7 @@ nav ul li a:hover {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: #FFD700; /* amarillo sol */
+    color: #FFD700; 
 }
 
 /* ===== Carrusel ===== */
@@ -114,13 +114,13 @@ nav ul li a:hover {
 .carousel-text h1 {
     font-size: 10vh;
     font-weight: bold;
-    color: #FFD700; /* amarillo sol */
+    color: #FFD700; 
     text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.6); /
 }
 .carousel-text h3 {
     font-size: 5vh;
     font-weight: bold;
-    color: #ffe893; /* tomate suave */
+    color: #ffe893; 
     text-shadow: 2px 2px 10px rgba(255, 140, 105, 0.5);
 }
 
@@ -150,13 +150,13 @@ nav ul li a:hover {
 /* ===== Contenido ===== */
 section {
     padding: 50px 10%;
-    background: #FFF8DC; /* crema suave para contraste */
+    background: #FFF8DC; 
 }
 h2 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
-    color: #FF4500; /* naranja-veraniego */
+    color: #FF4500; 
 }
 
 .grid {
@@ -166,7 +166,7 @@ h2 {
 }
 
 .card {
-    background: #FFE4B5; /* melocotón suave */
+    background: #FFE4B5; 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(255, 160, 122, 0.4); /* sombra coral */
@@ -175,10 +175,10 @@ h2 {
 
 .card img {
     width: 100%;
-    height: 220px;      /* 🔥 todas tendrán el mismo alto */
+    height: 220px;      
     border-radius: 8px;
     margin-bottom: 10px;
-    object-fit: cover;  /* 🔥 recorta y mantiene proporción */
+    object-fit: cover;  
     object-position: center; /* centra la imagen */
 }
 
@@ -186,14 +186,14 @@ h2 {
     display: block;         /* ocupa toda la línea */
     margin: 20px auto;      /* centrado automático */
     padding: 12px 24px;
-    background: linear-gradient(45deg, #ff6f61, #ffb88c);   /* azulito elegante, cámbialo si quieres */
+    background: linear-gradient(45deg, #ff6f61, #ffb88c);   
     color: #fff;
     text-decoration: none;
     font-size: 24px;
     border-radius: 8px;
     transition: background 0.3s ease;
     text-align: center;
-    width: fit-content;     /* que solo ocupe lo necesario */
+    width: fit-content;     
 }
 
 .boton-secciones:hover {
@@ -211,7 +211,7 @@ ul li {
 
 /* ===== Footer ===== */
 footer {
-    background: linear-gradient(90deg, #FF7F50, #FF6347); /* coral a tomate */
+    background: linear-gradient(90deg, #FF7F50, #FF6347); 
     color: #fff;
     padding: 40px 20px;
 }
@@ -253,16 +253,16 @@ footer a {
     transition: color 0.3s;
 }
 footer a:hover {
-    color: #32CD32; /* verde lima */
+    color: #32CD32; 
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
-    border-top: 1px solid #FF8C00; /* naranja intenso */
+    border-top: 1px solid #FF8C00; 
     padding-top: 10px;
     font-size: 16px;
-    color: #FFFACD; /* amarillo claro */
+    color: #FFFACD; 
 }
 
 
@@ -306,7 +306,7 @@ footer a:hover {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.4s ease-in-out;
-        background: rgba(255, 160, 122, 0.95); /* coral claro */
+        background: rgba(255, 160, 122, 0.95); 
     }
     nav.active {
         max-height: 500px;
